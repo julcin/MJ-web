@@ -1,0 +1,1 @@
+- ar piesinukas bsu interaktyvus, t.y. mirksi lempos, juda dulkes

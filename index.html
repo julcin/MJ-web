@@ -4,12 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- will go into 1 file minificated, now separate for easier to find -->
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/specific.css" />
 
     <!-- development only -->
     <link rel="stylesheet" href="./css/temp.css" />
 
     <title>Sklypų priežiūra</title>
   </head>
-  <body></body>
+  <body>
+    <header class="fixed top-0 layer-front">Navigacija</header>
+    <div
+      class="fixed top-0 layer-back window-height window-width bg-image"
+    ></div>
+    <main>
+      <section class="brand window-height">
+        <div class="brand-icon mlr-auto mt-5"></div>
+        <h1 class="center">Sklypų priežiūra</h1>
+      </section>
+      <section class="services">Servisas</section>
+      <section class="portfolio">Darbai</section>
+      <section class="about">Apie</section>
+      <section class="contacts">Kontaktai</section>
+    </main>
+    <footer>Footer</footer>
+  </body>
 </html>

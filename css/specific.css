@@ -1,0 +1,14 @@
+/* specific style goes here, where style aplies only for that component and
+there is no need to split into small classes, for example bg image */
+.bg-image {
+  background-image: url(../img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.brand-icon {
+  width: 150px;
+  height: 150px;
+
+  background-color: hotpink;
+}
