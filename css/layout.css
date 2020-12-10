@@ -5,8 +5,19 @@
   position: fixed;
 }
 
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
 .top-0 {
   top: 0;
+}
+.bot-0 {
+  bottom: 0;
 }
 
 /* size */
