@@ -1,3 +1,5 @@
 - ar piesinukas bsu interaktyvus, t.y. mirksi lempos, juda dulkes
 - ar reikia book online kaip antro puslapio?
 - kokiom kalbom tinklapis?
+- kokie fontai, man neina wix kode rast kokie ten naudojami, ieksot panasiu?
+- ar bus linkai fb instagam ir P kazkoks, nes jie mobiliake eina i ta islendanti meniu, o ant didelio ekrano jie eina kaip pirmos sekcijos po logotipu ir title dalis. Klausiu nes reiktu pamastyt, keleta variantu turiu galvoj, bet pradesiu tikrint, tik kai bus confirmas, kad nedaryt darbo kuri po to ismest is kodo
