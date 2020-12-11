@@ -1,1 +1,3 @@
 - ar piesinukas bsu interaktyvus, t.y. mirksi lempos, juda dulkes
+- ar reikia book online kaip antro puslapio?
+- kokiom kalbom tinklapis?

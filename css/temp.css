@@ -1,6 +1,5 @@
 /* style for testig, like setting size and background colors for containers to visualise layers and so on */
 header {
-  height: 50px;
   width: 100%;
   background-color: rgb(58, 58, 58);
 }

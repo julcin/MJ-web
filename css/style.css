@@ -25,7 +25,8 @@ img {
   height: auto;
 }
 
-.hidden {
+.hidden,
+.sr-only {
   position: absolute;
 
   width: 1px;

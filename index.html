@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lt">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src="https://kit.fontawesome.com/50ef29778d.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- will go into 1 file minificated, now separate for easier to find -->
     <link rel="stylesheet" href="./css/style.css" />
@@ -16,7 +21,30 @@
     <title>Sklypų priežiūra</title>
   </head>
   <body>
-    <header class="fixed top-0 layer-front">Navigacija</header>
+    <header class="fixed top-0 layer-front">
+      <nav id="main-menu" class="main-menu" aria-label="Pagrindinis meniu">
+        <a
+          href="#main-menu"
+          id="main-menu-toggle"
+          class="menu-toggle"
+          aria-label="Atidaryti meniu"
+        >
+          <span class="sr-only">Atidaryti navigacijos meniu</span>
+          <span class="fa fa-bars" aria-hidden="true"></span>
+        </a>
+        <ul>
+          <li>
+            <a href="#">Pradžia</a>
+            <a href="#">Paslaugos</a>
+            <a href="#">Mūsų darbai</a>
+            <a href="#">Apie mus</a>
+            <a href="#">Kontaktai</a>
+          </li>
+        </ul>
+
+        <a href="#main-menu-toggle" class="backdrop" tabindex="-1" hidden></a>
+      </nav>
+    </header>
 
     <div
       class="fixed top-0 layer-far window-height window-width bg-image-2"
