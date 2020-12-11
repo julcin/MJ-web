@@ -1,6 +1,8 @@
 /* specific style goes here, where style aplies only for that component and
 there is no need to split into small classes, for example bg image */
 .bg-image-1 {
+  position: fixed;
+
   background-image: url(../img/bg-1.jpg);
   background-position: center;
   background-size: cover;
@@ -12,9 +14,28 @@ there is no need to split into small classes, for example bg image */
   background-size: cover;
 }
 
+.bg-image-3 {
+  background-image: url(../img/bg-2.jpg);
+  background-position: center;
+  background-size: cover;
+
+  height: 400px;
+  opacity: 0;
+}
+
 .brand-icon {
   width: 150px;
   height: 150px;
 
   background-color: hotpink;
+}
+
+@media (max-width: 48em) {
+  .bg-image-1 {
+    position: absolute;
+  }
+
+  .bg-image-3 {
+    opacity: 1;
+  }
 }
