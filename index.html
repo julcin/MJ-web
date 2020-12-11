@@ -21,28 +21,46 @@
     <title>Sklypų priežiūra</title>
   </head>
   <body>
-    <header class="fixed top-0 layer-front">
-      <nav id="main-menu" class="main-menu" aria-label="Pagrindinis meniu">
+    <header class="layer-front">
+      <!-- <header> -->
+      <a
+        href="#main-menu"
+        id="main-menu-toggle"
+        class="menu-toggle"
+        aria-label="Atidaryti meniu"
+      >
+        <span class="sr-only">Atidaryti</span>
+        <span class="fa fa-bars" aria-hidden="true"></span>
+      </a>
+
+      <nav id="main-menu" class="main-menu" aria-label="Puslapio navigacija">
         <a
-          href="#main-menu"
-          id="main-menu-toggle"
-          class="menu-toggle"
-          aria-label="Atidaryti meniu"
+          id="main-menu-close"
+          href="#main-menu-toggle"
+          class="menu-close"
+          aria-label="Uždaryti puslapio navigacijos meniu"
         >
-          <span class="sr-only">Atidaryti navigacijos meniu</span>
-          <span class="fa fa-bars" aria-hidden="true"></span>
+          <span class="sr-only">Uždaryti</span>
+          <span class="fa fa-close" aria-hidden="true"></span>
         </a>
+
         <ul>
           <li>
             <a href="#">Pradžia</a>
+          </li>
+          <li>
             <a href="#">Paslaugos</a>
+          </li>
+          <li>
             <a href="#">Mūsų darbai</a>
+          </li>
+          <li>
             <a href="#">Apie mus</a>
+          </li>
+          <li>
             <a href="#">Kontaktai</a>
           </li>
         </ul>
-
-        <a href="#main-menu-toggle" class="backdrop" tabindex="-1" hidden></a>
       </nav>
     </header>
 
