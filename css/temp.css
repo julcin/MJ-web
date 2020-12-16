@@ -35,3 +35,63 @@ section {
   height: 600px;
   background-color: orange;
 }
+
+/* specific style goes here, where style aplies only for that component and
+there is no need to split into small classes, for example bg image */
+
+.brand-icon {
+  width: 150px;
+  height: 150px;
+
+  background-color: hotpink;
+}
+
+@media (max-width: 48em) {
+  .bg-image-1 {
+    position: absolute;
+  }
+
+  .bg-image-3 {
+    opacity: 1;
+  }
+}
+
+/* positioning, margins, paddings, aligns goes here, zindex */
+
+/* position */
+.fixed {
+  position: fixed;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.bot-0 {
+  bottom: 0;
+}
+
+/* size */
+.window-height {
+  height: 100vh;
+}
+
+/* margin */
+.mlr-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.mt-5 {
+  margin-top: 5em;
+}
+
+/* padding */
+
+/* align */
+.center {
+  text-align: center;
+}
