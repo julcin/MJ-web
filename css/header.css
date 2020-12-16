@@ -67,6 +67,10 @@ header {
   text-decoration: none;
 }
 
+.main-menu_social-link {
+  font-size: 2rem;
+}
+
 .main-menu a:hover {
   color: rosybrown;
 }

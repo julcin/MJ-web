@@ -1,0 +1,39 @@
+/* ------------- layering ------------*/
+:root {
+  --layer-back: -2;
+  --layer-far: -1;
+  --layer-mid: 0;
+  --layer-near: 1;
+  --layer-front: 2;
+}
+
+.layer-far {
+  z-index: var(--layer-far);
+}
+
+.layer-back {
+  z-index: var(--layer-back);
+}
+
+.layer-mid {
+  z-index: var(--layer-mid);
+}
+.layer-near {
+  z-index: var(--layer-near);
+}
+
+.layer-front {
+  z-index: var(--layer-front);
+}
+
+/*-------------- adaptive ----------------*/
+
+.mobile-only {
+  display: block;
+}
+
+@media (min-width: 48em) {
+  .mobile-only {
+    display: none;
+  }
+}
