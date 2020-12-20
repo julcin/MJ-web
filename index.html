@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/abstract.css" />
     <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/brand.css" />
 
     <!-- development only -->
     <link rel="stylesheet" href="./css/temp.css" />
@@ -44,7 +45,7 @@
 
         <ul>
           <li>
-            <a href="#">Pradžia</a>
+            <a href="#brand">Pradžia</a>
           </li>
           <li>
             <a href="#">Paslaugos</a>
@@ -75,9 +76,21 @@
     <div class="layer-far bg-image-top bg-image-1"></div>
 
     <main>
-      <section class="brand window-height">
-        <div class="brand-icon mlr-auto mt-5"></div>
-        <h1 class="center">Sklypų priežiūra</h1>
+      <section id="brand">
+        <img class="brand__logo" src="./img/fake-logo.svg" alt="Logotipas" />
+        <h1 class="sr-only">Sklypų priežiūra</h1>
+        <div class="brand__title">Sklypų</div>
+        <div class="brand__subtitle">priežiūra</div>
+        <div class="brand__social-link desktop-only">
+          <a
+            class="brand__link"
+            href="https://www.instagram.com/"
+            aria-label="Mūsų instagram tinklapį"
+          >
+            <span class="sr-only">Pereiti</span>
+            <i class="fab fa-instagram-square" aria-hidden="true"></i>
+          </a>
+        </div>
       </section>
       <section class="services">Servisas</section>
       <section class="portfolio">Darbai</section>

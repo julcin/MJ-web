@@ -1,3 +1,8 @@
+- brand skili kolkas juoda balta kai bus bacground paveikslas
+  i kai bus logo tada splavas tekstu logo paimsim kad kontrastuotų
+
+---
+
 - kokiom kalbom tinklapis? //LT / eng. -kaip paprasčiau, vertimai bus.
 
 - ar bus linkai fb instagam ir P kazkoks, nes jie mobiliake eina i ta islendanti meniu, o ant didelio ekrano jie eina kaip pirmos sekcijos po logotipu ir title dalis. Klausiu nes reiktu pamastyt, keleta variantu turiu galvoj, bet pradesiu tikrint, tik kai bus confirmas, kad nedaryt darbo kuri po to ismest is kodo //fb nebus (neplanuojama) / IG bus.

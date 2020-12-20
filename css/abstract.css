@@ -32,8 +32,15 @@
   display: block;
 }
 
+.desktop-only {
+  display: none;
+}
+
 @media (min-width: 48em) {
   .mobile-only {
     display: none;
+  }
+  .desktop-only {
+    display: block;
   }
 }
