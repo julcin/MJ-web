@@ -26,6 +26,23 @@
   z-index: var(--layer-front);
 }
 
+/*------------ text ----------------*/
+.title {
+  text-transform: uppercase;
+  padding-top: 3em;
+  text-align: center;
+
+  color: whitesmoke;
+}
+
+.title::after {
+  content: '';
+  display: block;
+  border-bottom: 0.3em solid whitesmoke;
+  width: 2em;
+  margin: 0.5em auto 0;
+}
+
 /*-------------- adaptive ----------------*/
 
 .mobile-only {
