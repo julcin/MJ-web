@@ -1,0 +1,25 @@
+#about {
+  background-color: rgb(158, 158, 158);
+  padding: 2em 1em;
+  color: rgb(90, 90, 90);
+
+  line-height: 1.5em;
+  font-weight: lighter;
+  letter-spacing: 0.05em;
+}
+
+.about__container {
+  background-color: whitesmoke;
+
+  text-align: center;
+  padding: 1em 2em;
+}
+
+@media (min-width: 768px) {
+  .about__container {
+    max-width: 800px;
+    margin: 0 auto;
+
+    padding: 2em 5em;
+  }
+}

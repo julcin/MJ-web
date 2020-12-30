@@ -1,12 +1,16 @@
+- apie mus ten bg paveiksliukas yra, ar jo riekia ir koks tada paveiksliukas
+  ir ar jis turi irgi judet taip, nes bbz ar taip padarysiu jau kad kiti nesugriutu :D
+
+- sriftai ten boldai ir pan dar keisis kai bus parinktas sriftas, t.y. pabaigoje, daba kolkas tik i reikiama vieta ir plius minus dydis spalva
+
+---
+
 - brand skili kolkas juoda balta kai bus bacground paveikslas
   i kai bus logo tada splavas tekstu logo paimsim kad kontrastuotų
 
 - servisai, komentaras buvo bus apie 10, ar nebus per daug pvz scrolint visus 10 servisu ant mobilkes, ar negeriau tuos servisus sugrupuot tarkim i tris kaip pavizdyje trys servisai ju pavadinimas didziosiom raidem, po juo eilutes
   su atskirais dalykais kas i ta servisa ieina.
   Ir siaip butu gerai tekstai visur, nes kolkas darau pagal pavizdi su random tekstais ir paveiksliukais
-
-- ir imesk i ghup pages, bus galima reliai pazet ant mobilkes ir pan, nes
-  daba pas man kai dydi keiti lango iki mobilkes ir kai per f12 isirenki device mobilke lygiavimai kazkakip buna skirias ir pan
 
 ---
 
