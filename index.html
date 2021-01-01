@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./css/brand.css" />
     <link rel="stylesheet" href="./css/services.css" />
     <link rel="stylesheet" href="./css/about.css" />
+    <link rel="stylesheet" href="./css/contacts.css" />
 
     <!-- development only -->
     <link rel="stylesheet" href="./css/temp.css" />
@@ -59,7 +60,7 @@
             <a href="#about">Apie mus</a>
           </li>
           <li>
-            <a href="#">Kontaktai</a>
+            <a href="#contacts">Kontaktai</a>
           </li>
           <li class="main-menu_social-link mobile-only">
             <a
@@ -141,7 +142,53 @@
         </div>
       </section>
       <div class="bg-image-3"></div>
-      <section class="contacts">Kontaktai</section>
+
+      <section id="contacts">
+        <img class="contacts__img" src="./img/img1.png" alt="Traktorius" />
+
+        <div class="contacts__container">
+          <h2 class="title title--dark">Kontaktai</h2>
+          <div class="contacts">
+            <div class="contacts__info">
+              <address class="info__address">
+                Sostinės gatvė 7, Vilnius, Lietuva, Pašto kodas 10123
+              </address>
+
+              <a class="info__link" href="mailto: pastas@pastas.lt"
+                >pastas@pastas.lt</a
+              >
+
+              <a class="info__link" href="tel:+37069999999"
+                >Tel +370 699 99 999</a
+              >
+
+              <p></p>
+
+              <h3 class="info__subtitle">Darbo valandos:</h3>
+              <p class="info__hours">
+                I-V: 8:00 - 16:00<br />
+                VI: 9:00 - 14:00<br />
+                VII: 10:00 - 14:00
+              </p>
+            </div>
+            <form class="contacts__form">
+              <label for="fname">Vardas</label><br />
+              <input type="text" id="fname" name="fname" /><br />
+              <label for="lname">Pavardė</label><br />
+              <input type="text" id="lname" name="lname" /><br />
+              <label for="email">El.Paštas<span class="required">*</span></label
+              ><br />
+              <input type="email" id="email" name="email" /><br />
+              <label for="subject">Tema</label><br />
+              <input type="text" id="subject" name="subject" /><br />
+              <label for="text">Žinutė</label><br />
+              <textarea name="text" id="text" cols="25" rows="10"></textarea
+              ><br />
+              <button class="btn btn__submit" type="submit">Siųsti</button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>Footer</footer>

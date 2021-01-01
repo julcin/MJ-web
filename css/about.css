@@ -1,3 +1,4 @@
+#contacts,
 #about {
   background-color: rgb(158, 158, 158);
   padding: 2em 1em;
@@ -8,7 +9,8 @@
   letter-spacing: 0.05em;
 }
 
-.about__container {
+.about__container,
+.contacts__container {
   background-color: whitesmoke;
 
   text-align: center;
@@ -16,6 +18,7 @@
 }
 
 @media (min-width: 768px) {
+  .contacts__container,
   .about__container {
     max-width: 800px;
     margin: 0 auto;
