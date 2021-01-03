@@ -1,7 +1,7 @@
 - apie mus ten bg paveiksliukas yra, ar jo riekia ir koks tada paveiksliukas
   ir ar jis turi irgi judet taip, nes bbz ar taip padarysiu jau kad kiti nesugriutu :D
 
-  2021-01-03 tas po about us paveiksliukas toks pats kaip pirmam fone (zole). Dar about us skiltyje virs viso bloko pridet nores paveiksleli nedideli (atsius)
+  2021-01-03 tas po about us paveiksliukas toks pats kaip pirmam fone (zole).
 
 - sriftai ten boldai ir pan dar keisis kai bus parinktas sriftas, t.y. pabaigoje, daba kolkas tik i reikiama vieta ir plius minus dydis spalva
 
@@ -33,5 +33,16 @@
 //services bus apie 10
 //kontaktuose kai rašo mail kad būtų optionas iš dropdown pasirinkt service (jeigu nori užklaust, tai kategorija "kita")
 
+2021-01-03:
 wix link:
 https://www.wix.com/website-template/view/html/1732?siteId=648ae4f3-0bc8-46c6-becc-8bbf3ccc2ab3&metaSiteId=cb21959b-8635-4fa8-9fd7-b85fe6cd7f3c&originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fbusiness%2Fautomotive-cars&tpClick=view_button
+
+Fonai:
+
+1. Main - zole;
+2. paslaugos - black grain (kazkas panasaus kaip ir wix pvz services) - galesi padaryt?
+3. musu darbai - dar nera contento ir pav kolkas negalvojo;
+4. apie mus - atsius;
+5. kontaktai - neaisku ar fona det ar nedet.
+
+servisai - ikonos prie ikonu parasyta kaip daryt mob.
