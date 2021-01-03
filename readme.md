@@ -1,6 +1,8 @@
 - apie mus ten bg paveiksliukas yra, ar jo riekia ir koks tada paveiksliukas
   ir ar jis turi irgi judet taip, nes bbz ar taip padarysiu jau kad kiti nesugriutu :D
 
+  2021-01-03 tas po about us paveiksliukas toks pats kaip pirmam fone (zole). Dar about us skiltyje virs viso bloko pridet nores paveiksleli nedideli (atsius)
+
 - sriftai ten boldai ir pan dar keisis kai bus parinktas sriftas, t.y. pabaigoje, daba kolkas tik i reikiama vieta ir plius minus dydis spalva
 
 ---
