@@ -12,6 +12,8 @@
   su atskirais dalykais kas i ta servisa ieina.
   Ir siaip butu gerai tekstai visur, nes kolkas darau pagal pavizdi su random tekstais ir paveiksliukais
 
+  2021-01-03: ant mobilkes serviso ikona ir pavadinimas, uzclicklinus ant icon/pavad atsidaro aprasymas. Tekstai nusiusti ir icon
+
 ---
 
 - kokiom kalbom tinklapis? //LT / eng. -kaip paprasčiau, vertimai bus.
@@ -28,3 +30,6 @@
 //kur kontaktai tai mail ir tel ir textfield privaloma, tel nr prasideda 8 arba +370. vardas, pavarde, subject neprivaloma.
 //services bus apie 10
 //kontaktuose kai rašo mail kad būtų optionas iš dropdown pasirinkt service (jeigu nori užklaust, tai kategorija "kita")
+
+wix link:
+https://www.wix.com/website-template/view/html/1732?siteId=648ae4f3-0bc8-46c6-becc-8bbf3ccc2ab3&metaSiteId=cb21959b-8635-4fa8-9fd7-b85fe6cd7f3c&originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fbusiness%2Fautomotive-cars&tpClick=view_button
