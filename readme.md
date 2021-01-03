@@ -43,6 +43,9 @@ Fonai:
 2. paslaugos - black grain (kazkas panasaus kaip ir wix pvz services) - galesi padaryt?
 3. musu darbai - dar nera contento ir pav kolkas negalvojo;
 4. apie mus - atsius;
-5. kontaktai - neaisku ar fona det ar nedet.
+5. empty block - zole;
+6. kontaktai - neaisku ar fona det ar nedet.
 
 servisai - ikonos prie ikonu parasyta kaip daryt mob.
+
+Idejau kaip kontaktuose paveiksliukas turetu buti (yra tarp vektoriniu failu siustu);]
