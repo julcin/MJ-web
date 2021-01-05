@@ -50,7 +50,8 @@ img {
 }
 
 .bg-image-1 {
-  background-image: url(../img/bg-1.jpg);
+  background-color: #54722b;
+  background-image: url(../img/bg-1r.jpg);
   position: fixed;
 
   top: 0;
