@@ -57,7 +57,7 @@ img {
   top: 0;
   left: 0;
   height: 100vh;
-  width: calc(100vw - 17px);
+  width: 100vw;
 }
 
 .bg-image-2 {
@@ -67,7 +67,7 @@ img {
   top: 0;
   left: 0;
   height: 100vh;
-  width: calc(100vw - 17px);
+  width: 100vw;
 }
 
 .bg-image-3 {
