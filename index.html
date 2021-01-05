@@ -17,9 +17,7 @@
     <link rel="stylesheet" href="./css/services.css" />
     <link rel="stylesheet" href="./css/about.css" />
     <link rel="stylesheet" href="./css/contacts.css" />
-
-    <!-- development only -->
-    <link rel="stylesheet" href="./css/temp.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
 
     <title>Sklypų priežiūra</title>
   </head>
@@ -75,8 +73,8 @@
       </nav>
     </header>
 
-    <div class="layer-far bg-image-top bg-image-2"></div>
-    <div class="layer-far bg-image-top bg-image-1"></div>
+    <div class="layer-far bg-image bg-image-2"></div>
+    <div class="layer-far bg-image bg-image-1"></div>
 
     <main>
       <section id="brand">
@@ -95,6 +93,7 @@
           </a>
         </div>
       </section>
+
       <section id="services">
         <h2 class="title">Paslaugos</h2>
         <ul class="service__list">
@@ -123,7 +122,9 @@
           </li>
         </ul>
       </section>
+
       <section class="portfolio"></section>
+
       <section id="about">
         <div class="about__container">
           <h2 class="title title--dark">Apie Mus</h2>
@@ -141,6 +142,7 @@
           </p>
         </div>
       </section>
+
       <div class="bg-image-3"></div>
 
       <section id="contacts">
@@ -189,10 +191,28 @@
           </div>
         </div>
       </section>
+
+      <a id="top-link" title="Į puslapio viršų" href="#">
+        <span class="sr-only">Keliauti</span>
+        <i class="fas fa-angle-up" aria-hidden="true"></i>
+      </a>
     </main>
 
-    <footer>Footer</footer>
+    <footer>
+      <div class="desktop-only">
+        <a
+          class="footer-link"
+          href="https://www.instagram.com/"
+          aria-label="Mūsų instagram tinklapį"
+        >
+          <span class="sr-only">Pereiti</span>
+          <i class="fab fa-instagram-square" aria-hidden="true"></i>
+        </a>
+      </div>
+      <p>2021</p>
+    </footer>
 
     <script src="./js/bg-switch.js"></script>
+    <script src="./js/back-to-top.js"></script>
   </body>
 </html>
