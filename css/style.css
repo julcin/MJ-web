@@ -60,33 +60,6 @@ img {
   width: 100vw;
 }
 
-.bg-image-2 {
-  background-image: url(../img/bg-2.jpg);
-  position: fixed;
-
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-}
-
-.bg-image-3 {
-  background-image: url(../img/bg-2.jpg);
-
-  height: 400px;
-  opacity: 0;
-}
-
-@media (max-width: 48em) {
-  .bg-image-1 {
-    position: absolute;
-  }
-
-  .bg-image-3 {
-    opacity: 1;
-  }
-}
-
 #top-link {
   position: fixed;
   bottom: 10px;

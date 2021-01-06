@@ -65,4 +65,8 @@ textarea {
   .contacts {
     flex-direction: row;
   }
+
+  #contacts {
+    margin-top: 400px;
+  }
 }
