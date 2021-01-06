@@ -17,9 +17,6 @@
 .service__icon {
   font-size: 50px;
 
-  border: 0.1em solid whitesmoke;
-
-  border-radius: 50%;
   width: 100px;
   height: 100px;
 
@@ -34,7 +31,6 @@
 }
 
 .service__text {
-  text-transform: capitalize;
   font-size: 1rem;
   padding: 0.2em;
 }
