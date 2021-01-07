@@ -22,6 +22,16 @@ fonas - atsius;
 pastaba, liosto antraste klasimas - Ką gausite pasirinkę mus? o pirmas listo variantas -Atliksime darbus kokybiškai, tai stilistiskai(mano nuomone) i ką gausite atsakytume -Kokybiškai atliktus darbus ir t.t. ten Platų teikiamų paslaugų spektrą.
 
 KONTAKTAI-----------------------
-kur kontaktai tai mail ir tel ir textfield privaloma, tel nr prasideda 8 arba +370. vardas, pavarde, subject neprivaloma.
+tel nr prasideda 8 arba +370. vardas, pavarde, subject neprivaloma.
 kontaktuose kai rašo mail kad būtų optionas iš dropdown pasirinkt service (jeigu nori užklaust, tai kategorija "kita")
+-> pavizdyje nera tel, bet sicia kaip suprantu idet pries email (su prielaida kad cia kazkoks optionas rinkis servisa atsirada po email)? Privalomas ir tel ir emailas? Nes uztektu reliai vieno kontakto. Ir kas per selectas, tiesiog vienas is tu servisu paslaugose + kita, gal galima koki print screen ir pastumdyt kur koks laukas, nes gal tada nereikia ir vardo ir pavardes, uztenka vardo?
+
+virs kontaktu paveiksliukas vis dar mano random piestas traktorius, kuo jis bus keiciamas?
+
 fonas - neaisku ar fona det ar nede
+
+FOOTER---------------------------
+neisivaizduoju ka ten deti apart metu? aukstaitijos keliuy prieziura ten all right reserved?
+
+BONUS-----------------------
+kontaktai ir apie mus fonai pilki, originale ten vis kartojasi ikona, gal ir cia kazkuria ikona tiesiog prarepeatint fone, ar pvz keletos ikonu kombinacija, jei taip tai kokiu?

@@ -217,8 +217,8 @@
                 Sostinės gatvė 7, Vilnius, Lietuva, Pašto kodas 10123
               </address>
 
-              <a class="info__link" href="mailto: pastas@pastas.lt"
-                >pastas@pastas.lt</a
+              <a class="info__link" href="mailto: asprieziura@gmail.com"
+                >asprieziura@gmail.com</a
               >
 
               <a class="info__link" href="tel:+37069999999"
@@ -241,11 +241,18 @@
               <input type="text" id="lname" name="lname" /><br />
               <label for="email">El.Paštas<span class="required">*</span></label
               ><br />
-              <input type="email" id="email" name="email" /><br />
+              <input type="email" id="email" name="email" required /><br />
               <label for="subject">Tema</label><br />
               <input type="text" id="subject" name="subject" /><br />
-              <label for="text">Žinutė</label><br />
-              <textarea name="text" id="text" cols="25" rows="10"></textarea
+              <label for="text">Žinutė<span class="required">*</span></label
+              ><br />
+              <textarea
+                name="text"
+                id="text"
+                cols="25"
+                rows="10"
+                required
+              ></textarea
               ><br />
               <button class="btn btn__submit" type="submit">Siųsti</button>
             </form>
