@@ -19,14 +19,14 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-
-  gap: 3em;
 }
 
 @media (min-width: 768px) {
   .service__list {
     flex-direction: row;
     flex-wrap: wrap;
+
+    gap: 3em;
 
     max-width: 1200px;
     margin: 0 auto;
@@ -43,13 +43,18 @@
 
   border: 3px solid whitesmoke;
   border-radius: 50%;
+
+  background: none;
+  cursor: pointer;
 }
 
 .service__title {
   text-transform: uppercase;
   font-weight: lighter;
   max-width: 300px;
-  margin: 1em auto;
+  margin: 1em auto 0;
+
+  cursor: pointer;
 }
 
 .service__text {
@@ -59,4 +64,20 @@
 
   max-width: 300px;
   margin: 0 auto;
+
+  overflow: hidden;
+
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+@media (min-width: 768px) {
+  .service__text {
+    max-height: none;
+  }
+
+  .service__title,
+  .service__icon {
+    cursor: auto;
+  }
 }

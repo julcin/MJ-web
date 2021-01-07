@@ -9,10 +9,8 @@ tekstas, wixu tinklapyje ten pirmas tekstas didelis antras mazas, pas mus trys z
 instagram linkas kolkas i instagrama, ar tinka ikona ar paieskot tinkamesnes?
 
 PASLAUGOS------------------------
-ant mobilkes serviso ikona ir pavadinimas, uzclicklinus ant icon/pavad atsidaro aprasymas. Tekstai nusiusti ir icon
-
 fonas - black grain (kazkas panasaus kaip ir pavyzdyje pvz services) - galesi padaryt?
-originale ten kaipo asfaltas, kataloge img/service-bg palikau keleta variantu. Ten kaipo garazas tai asfaltas i tema, pas mus sklypai tai manau gal kazkas su tema kaip zeme labiau i tema, tai pirmi du paveiksliukai asfalto ir kiti kazkas pan su zeme patamsinti, kad kontrastuotu su baltu sriftu. pazet kaip atrodo galima pakeitus services.css #services background-image: url skaiciu 0-4, jei ne galima tiesiog paimt proceduriskai pageneruotu tamsiu paveiksliuku su photosjop filtrais kaip noice ir pan, jei siulomi netinka, tada pakonkretina labiau, ten ar reik tamsesniu, ar reik kazko konkretaus ir pan.
+-> originale ten kaipo asfaltas, kataloge img/service-bg palikau keleta variantu. Ten kaipo garazas tai asfaltas i tema, pas mus sklypai tai manau gal kazkas su tema kaip zeme labiau i tema, tai pirmi du paveiksliukai asfalto ir kiti kazkas pan su zeme patamsinti, kad kontrastuotu su baltu sriftu. pazet kaip atrodo galima pakeitus services.css #services background-image: url skaiciu 0-4, jei ne galima tiesiog paimt proceduriskai pageneruotu tamsiu paveiksliuku su photosjop filtrais kaip noice ir pan, jei siulomi netinka, tada pakonkretina labiau, ten ar reik tamsesniu, ar reik kazko konkretaus ir pan.
 
 DARBAI---------------------------
 our work kolkas nerodyti bloko (bet meniu rodyti, tik negalima pasirinkti).
