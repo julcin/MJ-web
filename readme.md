@@ -17,8 +17,9 @@ our work kolkas nerodyti bloko (bet meniu rodyti, tik negalima pasirinkti).
 fonas - musu darbai - dar nera contento ir pav kolkas negalvojo;
 
 APIE MUS-------------------------
-po about us paveiksliukas toks pats kaip pirmam fone (zole).
 fonas - atsius;
+
+pastaba, liosto antraste klasimas - Ką gausite pasirinkę mus? o pirmas listo variantas -Atliksime darbus kokybiškai, tai stilistiskai(mano nuomone) i ką gausite atsakytume -Kokybiškai atliktus darbus ir t.t. ten Platų teikiamų paslaugų spektrą.
 
 KONTAKTAI-----------------------
 kur kontaktai tai mail ir tel ir textfield privaloma, tel nr prasideda 8 arba +370. vardas, pavarde, subject neprivaloma.

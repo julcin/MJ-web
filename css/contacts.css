@@ -1,3 +1,19 @@
+.contacts__container {
+  background-color: whitesmoke;
+
+  text-align: center;
+  padding: 1em 2em;
+}
+
+@media (min-width: 768px) {
+  .contacts__container {
+    max-width: 800px;
+    margin: 0 auto;
+
+    padding: 2em 5em;
+  }
+}
+
 .contacts {
   display: flex;
   flex-direction: column;

@@ -9,16 +9,13 @@
   letter-spacing: 0.05em;
 }
 
-.about__container,
-.contacts__container {
+.about__container {
   background-color: whitesmoke;
 
-  text-align: center;
   padding: 1em 2em;
 }
 
 @media (min-width: 768px) {
-  .contacts__container,
   .about__container {
     max-width: 800px;
     margin: 0 auto;
