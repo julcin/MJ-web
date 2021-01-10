@@ -35,3 +35,15 @@ neisivaizduoju ka ten deti apart metu? aukstaitijos keliuy prieziura ten all rig
 
 BONUS-----------------------
 kontaktai ir apie mus fonai pilki, originale ten vis kartojasi ikona, gal ir cia kazkuria ikona tiesiog prarepeatint fone, ar pvz keletos ikonu kombinacija, jei taip tai kokiu?
+
+--2021-01-10--
+Pagal naują šabloną paslaugų eiliškumas:
+
+1. Vejos pjovimas
+2. Vejos aeravimas
+3. Aukštos žolės pjovimas
+4. Vejos atsėjimas
+5. Lapų rinkimas
+6. Mulčiavimas ir kiti darbai
+7. Sniego valymas žiemą
+8. Sodo priežiūros technikos aptarnavimas
