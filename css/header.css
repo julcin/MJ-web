@@ -1,4 +1,4 @@
-header {
+/* header {
   z-index: var(--layer-front);
   position: fixed;
   top: 0;
@@ -134,4 +134,4 @@ header {
   .main-menu {
     position: fixed;
   }
-}
+} */

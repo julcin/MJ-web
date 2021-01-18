@@ -1,52 +1,54 @@
 #brand {
-  height: 100vh;
+  height: calc(100vh + 100px);
+
+  background-color: white;
+
+  background: url(../img/background.jpg);
+
+  background-image: -moz-linear-gradient(
+      180deg,
+      rgb(76, 125, 134) 0%,
+      rgb(129, 115, 100) 33%,
+      rgb(182, 105, 65) 50%,
+      rgb(129, 115, 100) 68%,
+      rgb(76, 125, 134) 100%
+    ),
+    url(../img/background.jpg);
+  background-image: -webkit-linear-gradient(
+      180deg,
+      rgb(76, 125, 134) 0%,
+      rgb(129, 115, 100) 33%,
+      rgb(182, 105, 65) 50%,
+      rgb(129, 115, 100) 68%,
+      rgb(76, 125, 134) 100%
+    ),
+    url(../img/background.jpg);
+  background-image: -ms-linear-gradient(
+      180deg,
+      rgb(76, 125, 134) 0%,
+      rgb(129, 115, 100) 33%,
+      rgb(182, 105, 65) 50%,
+      rgb(129, 115, 100) 68%,
+      rgb(76, 125, 134) 100%
+    ),
+    url(../img/background.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  background-blend-mode: overlay;
+  mix-blend-mode: luminosity;
+
+  overflow: hidden;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% calc(100vh));
 
   display: flex;
-  flex-flow: column nowrap;
-
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  color: whitesmoke;
 }
 
 .brand__logo {
-  width: 50%;
-
-  max-width: 200px;
-}
-
-.brand__title {
-  font-size: 2.5rem;
-
-  font-weight: 700;
-  text-transform: uppercase;
-
-  text-align: center;
-}
-
-.brand__subtitle {
-  text-transform: uppercase;
-  letter-spacing: 0.3em;
-  font-weight: 700;
-
-  margin-top: 1em;
-}
-
-@media (min-width: 768px) {
-  .brand__subtitle {
-    font-size: 1.5rem;
-  }
-}
-
-.brand__social-link {
-  position: absolute;
-
-  bottom: 20px;
-
-  font-size: 3rem;
-}
-
-.brand__link {
-  color: inherit;
+  width: 80%;
 }

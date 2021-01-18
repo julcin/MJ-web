@@ -1,5 +1,5 @@
 /* ------------- layering ------------*/
-:root {
+/* :root {
   --layer-back: -2;
   --layer-far: -1;
   --layer-mid: 0;
@@ -24,10 +24,10 @@
 
 .layer-front {
   z-index: var(--layer-front);
-}
+} */
 
 /*------------ text ----------------*/
-.title {
+/* .title {
   text-transform: uppercase;
   padding-top: 3em;
   text-align: center;
@@ -54,10 +54,10 @@
 
 .required {
   color: rosybrown;
-}
+} */
 
 /*------------- buttons ----------------*/
-.btn {
+/* .btn {
   cursor: pointer;
   padding: 0.5em;
 }
@@ -71,10 +71,10 @@
   margin-top: 0;
 
   width: 100%;
-}
+} */
 /*-------------- adaptive ----------------*/
 
-.mobile-only {
+/* .mobile-only {
   display: block;
 }
 
@@ -89,4 +89,4 @@
   .desktop-only {
     display: block;
   }
-}
+} */
