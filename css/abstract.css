@@ -17,17 +17,43 @@
   z-index: var(--layer-front);
 }
 
-/* ------------- layering ------------*/
+section {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 30px;
 
-/*------------ text ----------------*/
-/* .title {
-  text-transform: uppercase;
-  padding-top: 3em;
-  text-align: center;
-
-  color: whitesmoke;
+  padding: 0 15px;
 }
 
+/*------------ text ----------------*/
+.title {
+  text-transform: uppercase;
+  text-align: center;
+
+  color: var(--color-main);
+
+  font-family: 'Proza Libre', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+
+  grid-column: 1 / -1;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  text-align: center;
+
+  color: var(--color-main);
+
+  font-family: 'Proza Libre', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+
+  text-align: left;
+
+  margin: 0 0 0.2em;
+}
+/* 
 .title--dark {
   color: rgb(58, 58, 58);
   padding-top: 0;
