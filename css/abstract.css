@@ -90,38 +90,3 @@ section {
 
   width: 100%;
 }
-
-/* 
-.title--dark {
-  color: rgb(58, 58, 58);
-  padding-top: 0;
-}
-
-.title::after {
-  content: '';
-  display: block;
-  border-bottom: 0.3em solid whitesmoke;
-  width: 2em;
-  margin: 0.5em auto 0;
-}
-
-.title--dark::after {
-  border-color: rgb(58, 58, 58);
-}
-
-*/
-
-/*------------- buttons ----------------*/
-
-/*-------------- adaptive ----------------*/
-
-/* 
-
-@media (min-width: 48em) {
-  .mobile-only {
-    display: none;
-  }
-  .desktop-only {
-    display: block;
-  }
-} */

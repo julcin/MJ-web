@@ -1,18 +1,10 @@
-/* footer {
-  background-color: #1a1a1a;
-  color: whitesmoke;
+footer {
+  background-color: var(--color-main);
+  color: white;
   text-align: center;
 
   padding: 1em;
-}
 
-.footer-link {
-  color: #1a1a1a;
-  background-color: whitesmoke;
+  font-size: 18px;
+  font-family: 'Proza Libre', sans-serif;
 }
-
-@media (min-width: 768px) {
-  footer {
-    padding-top: 3em;
-  }
-} */
