@@ -1,12 +1,3 @@
-/* ------------- layering ------------*/
-/* :root {
-  --layer-back: -2;
-  --layer-far: -1;
-  --layer-mid: 0;
-  --layer-near: 1;
-  --layer-front: 2;
-}
-
 .layer-far {
   z-index: var(--layer-far);
 }
@@ -24,7 +15,9 @@
 
 .layer-front {
   z-index: var(--layer-front);
-} */
+}
+
+/* ------------- layering ------------*/
 
 /*------------ text ----------------*/
 /* .title {

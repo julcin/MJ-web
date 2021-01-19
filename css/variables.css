@@ -1,1 +1,10 @@
 /* variables like colors, specific heights */
+:root {
+  --layer-back: -2;
+  --layer-far: -1;
+  --layer-mid: 0;
+  --layer-near: 1;
+  --layer-front: 2;
+
+  --color-main: #0a252c;
+}

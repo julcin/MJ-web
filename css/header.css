@@ -1,10 +1,10 @@
-/* header {
+header {
   z-index: var(--layer-front);
   position: fixed;
   top: 0;
-  height: 2.5em;
-  width: 100%;
-  background: #1a1a1a;
+  right: 0;
+  height: 3em;
+  width: 3em;
 }
 
 .menu-toggle {
@@ -19,11 +19,14 @@
   right: 0;
 }
 
-.menu-toggle:hover,
-.menu-toggle:focus,
-.main-menu .menu-close:hover,
-.main-menu .menu-close:focus {
-  color: white;
+.burger-menu {
+  width: 2em;
+  height: 0.6em;
+
+  background-color: var(--color-main);
+  border: 3px solid white;
+
+  margin-bottom: 0.1em;
 }
 
 .main-menu {
@@ -50,7 +53,7 @@
   min-height: 100vh;
   width: 100vw;
 
-  background: #1a1a1a;
+  background-color: var(--color-main);
 
   text-transform: uppercase;
 }
@@ -67,20 +70,14 @@
   text-decoration: none;
 }
 
-.main-menu_social-link {
-  font-size: 2rem;
-}
-
-.main-menu a:hover {
-  color: rosybrown;
-}
-
 .main-menu .menu-close {
   position: absolute;
   right: 0;
   top: 0;
 
   color: rgb(177, 177, 177);
+
+  font-size: 2em;
 }
 
 .main-menu:target,
@@ -102,7 +99,7 @@
 }
 
 @media (min-width: 48em) {
-  .menu-toggle,
+  /* .menu-toggle,
   .main-menu .menu-close {
     display: none;
   }
@@ -127,11 +124,23 @@
     width: auto;
 
     padding: 0 0;
-  }
+  } */
 }
 
 @supports (position: fixed) {
   .main-menu {
     position: fixed;
   }
+}
+
+/* 
+.menu-toggle:hover,
+.menu-toggle:focus,
+.main-menu .menu-close:hover,
+.main-menu .menu-close:focus {
+  color: white;
+
+  .main-menu a:hover {
+  color: rosybrown;
+}
 } */
