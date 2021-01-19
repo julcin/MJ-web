@@ -39,6 +39,11 @@ section {
   grid-column: 1 / -1;
 }
 
+.title--white {
+  color: white;
+  margin-bottom: 0;
+}
+
 .subtitle {
   text-transform: uppercase;
   text-align: center;

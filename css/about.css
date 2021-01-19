@@ -1,25 +1,23 @@
-/* #contacts,
 #about {
-  background-color: rgb(158, 158, 158);
-  padding: 2em 1em;
-  color: rgb(90, 90, 90);
+  background-color: var(--color-main);
 
-  line-height: 1.5em;
-  font-weight: lighter;
-  letter-spacing: 0.05em;
+  margin-top: 2em;
+  padding-bottom: 2em;
 }
 
 .about__container {
-  background-color: whitesmoke;
+  grid-column: 3/11;
+  color: white;
 
-  padding: 1em 2em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
 }
 
-@media (min-width: 768px) {
-  .about__container {
-    max-width: 800px;
-    margin: 0 auto;
+.about__container p {
+  margin: 0;
+}
 
-    padding: 2em 5em;
-  }
-} */
+.about__container h3 {
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 24px;
+}
