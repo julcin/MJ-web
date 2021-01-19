@@ -227,59 +227,90 @@
         </div>
       </section>
 
-      <!-- <section id="contacts">
-        <img class="contacts__img" src="./img/img1.png" alt="Traktorius" />
-
-        <div class="contacts__container">
-          <h2 class="title title--dark">Kontaktai</h2>
-          <div class="contacts">
-            <div class="contacts__info">
-              <address class="info__address">
-                Sostinės gatvė 7, Vilnius, Lietuva, Pašto kodas 10123
-              </address>
-
-              <a class="info__link" href="mailto: asprieziura@gmail.com"
-                >asprieziura@gmail.com</a
-              >
-
-              <a class="info__link" href="tel:+37069999999"
-                >Tel +370 699 99 999</a
-              >
-
-              <p></p>
-
-              <h3 class="info__subtitle">Darbo valandos:</h3>
-              <p class="info__hours">
-                I-V: 8:00 - 16:00<br />
-                VI: 9:00 - 14:00<br />
-                VII: 10:00 - 14:00
-              </p>
-            </div>
-            <form class="contacts__form">
-              <label for="fname">Vardas</label><br />
-              <input type="text" id="fname" name="fname" /><br />
-              <label for="lname">Pavardė</label><br />
-              <input type="text" id="lname" name="lname" /><br />
-              <label for="email">El.Paštas<span class="required">*</span></label
-              ><br />
-              <input type="email" id="email" name="email" required /><br />
-              <label for="subject">Tema</label><br />
-              <input type="text" id="subject" name="subject" /><br />
-              <label for="text">Žinutė<span class="required">*</span></label
-              ><br />
-              <textarea
-                name="text"
-                id="text"
-                cols="25"
-                rows="10"
-                required
-              ></textarea
-              ><br />
-              <button class="btn btn__submit" type="submit">Siųsti</button>
-            </form>
-          </div>
+      <section id="contacts">
+        <div class="info__hours">
+          <h3 class="subtitle">Darbo valandos:</h3>
+          I-V: 8:00 - 16:00<br />
+          <span class="required">VI</span>: 9:00 - 14:00<br />
+          <span class="required">VII</span>: 10:00 - 14:00
         </div>
-      </section> -->
+        <div class="contacts__container">
+          <h2 class="subtitle">Kontaktai</h2>
+          <address class="info__address">
+            Sostinės gatvė 7, Vilnius, Lietuva, Pašto kodas 10123
+          </address>
+
+          <a class="info__link" href="mailto: asprieziura@gmail.com"
+            >asprieziura@gmail.com</a
+          >
+          <a class="info__link" href="tel:+37069999999">Tel +370 699 99 999</a>
+        </div>
+
+        <div class="info__social">
+          <h3 class="subtitle">Soc tinklai</h3>
+          <img class="soc__image" src="./img/instagram.png" alt="Instagram" />
+        </div>
+
+        <form class="contacts__form">
+          <h3 class="subtitle center">Susisiekite</h3>
+          <label for="fname">Vardas</label><br />
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Martynas"
+          /><br />
+
+          <label for="phone">Telefonas<span class="required">*</span></label
+          ><br />
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="+3706xxxxxxx"
+            required
+          /><br />
+
+          <label for="email">El.Paštas</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="mail@mail.com"
+          /><br />
+
+          <label for="subject">Tema</label><br />
+          <select name="subject" id="subject" required>
+            <option disabled selected value>-- PASIRINKITE --</option>
+            <option value="vejos-pjovimas">VEJOS PJOVIMAS</option>
+            <option value="vejos-aeravimas">VEJOS AERAVIMAS</option>
+            <option value="aukstos-zoles-pjovimas">
+              AUKŠTOS ŽOLĖS PJOVIMAS
+            </option>
+            <option value="vejos-atsejimas">VEJOS ATSĖJIMAS</option>
+            <option value="lapu-rinkimas">LAPŲ RINKIMAS</option>
+            <option value="mulciavimas">MULČIAVIMAS</option>
+            <option value="sniego-valymas">SNIEGO VALYMAS ŽIEMĄ</option>
+            <option value="sodo-prieziuros-technikos-aptarnavimas">
+              SODO PRIEŽIŪROS TECHNIKOS APTARNAVIMAS
+            </option>
+            <option value="kita">KITA</option></select
+          ><br />
+
+          <label for="text">Žinutė<span class="required">*</span></label
+          ><br />
+          <textarea
+            name="text"
+            id="text"
+            cols="25"
+            rows="10"
+            placeholder="Sveiki, norėčiau pasiteirauti apie..."
+            required
+          ></textarea
+          ><br />
+          <button class="btn btn__submit" type="submit">Siųsti</button>
+        </form>
+      </section>
 
       <!-- <a id="top-link" title="Į puslapio viršų" href="#">
         <span class="sr-only">Keliauti</span>

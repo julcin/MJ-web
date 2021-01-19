@@ -58,6 +58,39 @@ section {
 
   margin: 0.2em;
 }
+
+.required {
+  color: #7a180e;
+}
+
+.center {
+  text-align: center;
+}
+
+.mobile-only {
+  display: block;
+}
+
+.desktop-only {
+  display: none;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn__submit {
+  background-color: var(--color-main);
+  color: whitesmoke;
+
+  font-size: 20px;
+  height: 40px;
+
+  margin-top: 0;
+
+  width: 100%;
+}
+
 /* 
 .title--dark {
   color: rgb(58, 58, 58);
@@ -76,35 +109,13 @@ section {
   border-color: rgb(58, 58, 58);
 }
 
-.required {
-  color: rosybrown;
-} */
+*/
 
 /*------------- buttons ----------------*/
-/* .btn {
-  cursor: pointer;
-  padding: 0.5em;
-}
 
-.btn__submit {
-  background-color: #1a1a1a;
-  color: whitesmoke;
-
-  font-size: 1rem;
-
-  margin-top: 0;
-
-  width: 100%;
-} */
 /*-------------- adaptive ----------------*/
 
-/* .mobile-only {
-  display: block;
-}
-
-.desktop-only {
-  display: none;
-}
+/* 
 
 @media (min-width: 48em) {
   .mobile-only {
