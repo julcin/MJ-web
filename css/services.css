@@ -8,20 +8,23 @@
 }
 
 .service__item {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 1em;
+}
 
-  align-items: center;
-
-  gap: 30px;
+.service__item + .service__item {
+  margin-top: 1em;
 }
 
 .service__image {
-  flex-basis: 0.4;
+  grid-column: span 4;
+  -ms-grid-column-span: 4;
 }
 
 .service__info {
-  flex-basis: 0.6;
+  grid-column: span 6;
+  -ms-grid-column-span: 6;
 }
 
 .service__text {
