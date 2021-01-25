@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
 
-  grid-column: 2/12;
+  grid-column: 1/13;
 }
 
 .service__item {
@@ -33,5 +33,14 @@
 
 .service__text {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
+}
+
+@media (min-width: 375px) {
+  .service__list {
+    grid-column: 2/12;
+  }
+  .service__text {
+    font-size: 18px;
+  }
 }

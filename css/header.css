@@ -98,10 +98,30 @@ header {
   z-index: 1000;
 }
 
-@media (min-width: 48em) {
-  /* .menu-toggle,
+.brand__text {
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.brand__text a {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: inherit;
+}
+
+@media (min-width: 768px) {
+  .menu-toggle,
   .main-menu .menu-close {
     display: none;
+  }
+
+  header {
+    width: 100%;
   }
 
   .main-menu {
@@ -112,7 +132,7 @@ header {
     height: auto;
     width: 100%;
     display: block;
-    background: none;
+    background-color: var(--color-main);
   }
 
   .main-menu ul {
@@ -123,8 +143,27 @@ header {
     min-height: auto;
     width: auto;
 
-    padding: 0 0;
-  } */
+    padding: 0 15px;
+
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .main-menu .nav__link {
+    font-family: 'Proza Libre', sans-serif;
+    font-weight: bold;
+
+    font-size: 18px;
+    line-height: 18px;
+
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .brand__text {
+    font-size: 30px;
+  }
 }
 
 @supports (position: fixed) {

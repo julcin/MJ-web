@@ -60,17 +60,22 @@
         </a>
 
         <ul>
-          <li>
-            <a href="#brand">Pradžia</a>
+          <li class="desktop-only brand__text">
+            <a href="#brand" aria-label="Į puslapio viršų"
+              >Aukštaitijos sklypų priežiūra</a
+            >
+          </li>
+          <li class="mobile-only">
+            <a href="#brand" class="nav__link">Pradžia</a>
           </li>
           <li>
-            <a href="#services">Paslaugos</a>
+            <a href="#services" class="nav__link">Paslaugos</a>
           </li>
           <li>
-            <a href="#about">Apie mus</a>
+            <a href="#about" class="nav__link">Apie</a>
           </li>
           <li>
-            <a href="#contacts">Kontaktai</a>
+            <a href="#contacts" class="nav__link">Kontaktai</a>
           </li>
         </ul>
       </nav>
@@ -252,7 +257,7 @@
         </div>
 
         <form class="contacts__form">
-          <h3 class="subtitle center">Susisiekite</h3>
+          <h3 class="subtitle center">Susisiekite su mumis</h3>
           <label for="fname">Vardas</label><br />
           <input
             type="text"
