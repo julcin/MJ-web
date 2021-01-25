@@ -39,17 +39,60 @@
   background-position: center;
 
   background-blend-mode: overlay;
-  mix-blend-mode: luminosity;
 
   overflow: hidden;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% calc(100vh));
+}
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.brand__wrapper {
+  position: relative;
 }
 
 .brand__logo {
+  position: absolute;
   width: 80%;
+  top: 40%;
+  left: 10%;
+}
+
+@media (min-width: 768px) {
+  .brand__wrapper {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 1) 50%,
+      var(--color-main) 92%,
+      var(--color-main) 100%
+    );
+  }
+  #brand {
+    padding: 0;
+    height: 100vh;
+
+    clip-path: polygon(
+      1% -5%,
+      1% 0%,
+      6% 80%,
+      42% 90%,
+      44% 0%,
+      44% -5%,
+      45% -5%,
+      45% 0%,
+      43% 93%,
+      75% 95%,
+      70% 0%,
+      70% -5%,
+      71% -5%,
+      71% 0%,
+      76% 97%,
+      95% 80%,
+      99% 0%,
+      99% -5%
+    );
+  }
+
+  .brand__logo {
+    width: 60%;
+    left: 20%;
+  }
 }
