@@ -104,4 +104,11 @@ section {
   .desktop-only {
     display: block;
   }
+
+  #services--link,
+  #about--link,
+  #contacts--link {
+    position: relative;
+    top: -60px;
+  }
 }

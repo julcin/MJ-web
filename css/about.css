@@ -20,3 +20,6 @@
   font-family: 'Proza Libre', sans-serif;
   font-size: 24px;
 }
+
+@media (min-width: 768px) {
+}
