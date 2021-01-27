@@ -45,10 +45,20 @@ img {
 }
 
 @media (min-width: 1200px) {
+  body {
+    background: linear-gradient(
+      178deg,
+      rgba(241, 241, 241, 1) 0%,
+      rgba(255, 255, 255, 1) 93.9%,
+      var(--color-main) 94%,
+      var(--color-main) 100%
+    );
+  }
+
   main {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto auto 1fr;
+    grid-template-rows: auto auto auto 1fr;
   }
 }
 
