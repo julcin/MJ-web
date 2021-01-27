@@ -24,6 +24,32 @@
 @media (min-width: 1200px) {
   #about {
     grid-column: 7/13;
+
+    margin-top: -200px;
+    z-index: var(--layer-mid);
+
+    clip-path: polygon(0% 200px, 0% 100%, 100% 100%, 100% 0%, 52% 20px);
+  }
+
+  .title--about {
+    grid-column: 7/13;
+    padding-top: 20px;
+    text-align: left;
+  }
+
+  .about__container {
+    grid-column: 2/12;
+    padding-bottom: 50px;
+  }
+
+  .about__container p {
+    max-width: 50%;
+    margin-left: 50%;
+    margin-top: -20px;
+  }
+
+  .about__container h3 {
+    line-height: 70px;
   }
 }
 
