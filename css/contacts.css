@@ -69,16 +69,16 @@
   #contacts {
     background: rgb(255, 255, 255);
     background: linear-gradient(
-      175deg,
-      rgba(255, 255, 255, 1) 90%,
-      var(--color-main) 91%,
+      177deg,
+      rgba(255, 255, 255, 1) 95%,
+      var(--color-main) 96%,
       var(--color-main) 100%
     );
   }
 
   .contacts__form {
     grid-column: 1/9;
-    grid-row: 1/4;
+    grid-row: 1/5;
 
     padding-bottom: 2em;
   }
