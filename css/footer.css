@@ -8,3 +8,9 @@ footer {
   font-size: 18px;
   font-family: 'Proza Libre', sans-serif;
 }
+
+@media (min-width: 1200px) {
+  footer {
+    padding-top: 2em;
+  }
+}

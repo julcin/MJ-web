@@ -4,35 +4,7 @@
 
   background-color: white;
 
-  background: url(../img/background.jpg);
-
-  background-image: -moz-linear-gradient(
-      180deg,
-      rgb(76, 125, 134) 0%,
-      rgb(129, 115, 100) 33%,
-      rgb(182, 105, 65) 50%,
-      rgb(129, 115, 100) 68%,
-      rgb(76, 125, 134) 100%
-    ),
-    url(../img/background.jpg);
-  background-image: -webkit-linear-gradient(
-      180deg,
-      rgb(76, 125, 134) 0%,
-      rgb(129, 115, 100) 33%,
-      rgb(182, 105, 65) 50%,
-      rgb(129, 115, 100) 68%,
-      rgb(76, 125, 134) 100%
-    ),
-    url(../img/background.jpg);
-  background-image: -ms-linear-gradient(
-      180deg,
-      rgb(76, 125, 134) 0%,
-      rgb(129, 115, 100) 33%,
-      rgb(182, 105, 65) 50%,
-      rgb(129, 115, 100) 68%,
-      rgb(76, 125, 134) 100%
-    ),
-    url(../img/background.jpg);
+  background: url(../img/bg.jpg);
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -115,7 +87,7 @@
       46% -5%,
       46% 0%,
       50% 97%,
-      75% 80%,
+      75% 79%,
       79% 0%,
       79% -5%,
       80% -5%,
@@ -154,13 +126,13 @@
       46% -5%,
       46% 0%,
       50% 97%,
-      75% 80%,
+      75% 79%,
       79% 0%,
       79% -5%,
       80% -5%,
       80% 0%,
       76% 78%,
-      100% 77%,
+      100% 76%,
       100% 0%
     );
   }

@@ -48,7 +48,7 @@ img {
   body {
     background: linear-gradient(
       178deg,
-      rgba(241, 241, 241, 1) 0%,
+      rgba(255, 255, 255, 1) 0%,
       rgba(255, 255, 255, 1) 93.9%,
       var(--color-main) 94%,
       var(--color-main) 100%
