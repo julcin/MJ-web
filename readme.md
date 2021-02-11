@@ -9,7 +9,7 @@ kolkas nedarau nk, kai atsiras darbu idesiu sectiona
 APIE MUS-------------------------
 
 KONTAKTAI-----------------------
-reik tekstu darbo laiko adresu tel linko i instagrama,
+reik linko i instagrama,
 
 FOOTER---------------------------
 
