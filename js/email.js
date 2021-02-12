@@ -1,5 +1,5 @@
 (function () {
-  emailjs.init('user_e0DRVxi8OCOuM6ymCqQl5');
+  emailjs.init('user_NlkV0Drb1XYv7uZOSFY3t');
 })();
 
 const btn = document.querySelector('.btn__submit');
@@ -10,7 +10,7 @@ form.addEventListener('submit', function (event) {
 
   btn.value = 'Siunčiama...';
 
-  emailjs.sendForm('service_lbmjlni', 'template_mjo1lcp', this).then(
+  emailjs.sendForm('service_ecrtese', 'template_i87yq7f', this).then(
     () => {
       btn.value = 'Siųsti';
       alert('Dėkojame už žinutę. Greitu laiku su jumis susisieksime!');
