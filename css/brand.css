@@ -109,6 +109,13 @@
 }
 
 @media (min-width: 1440px) {
+  .brand__logo {
+    width: 40%;
+    left: 30%;
+    top: 20%;
+    opacity: 0.7;
+ 
+  }
   #brand {
     clip-path: polygon(
       0% -5%,
