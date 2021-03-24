@@ -90,11 +90,16 @@ section {
   color: whitesmoke;
 
   font-size: 20px;
-  height: 40px;
 
   margin-top: 0;
 
   width: 100%;
+}
+
+.btn.btn__submit {
+  padding-bottom: 5px;
+
+  height: 40px;
 }
 
 @media (min-width: 768px) {
